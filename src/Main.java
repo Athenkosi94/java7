@@ -1,0 +1,14 @@
+public class Main {
+    public static void main(String[] args) {
+        String str1= "I don't like programming ";
+        String str2= "it's better to go home";
+
+        System.out.println("the index of k: " + " " + str1.indexOf("k"));
+        System.out.println("the index of g: " + " " + str2.indexOf("g"));
+        System.out.println(str1.concat(str2));
+        System.out.println("The substring (better) : " + " " + str2.substring(3,10));
+        System.out.println("str2 to upper case: " + str1.toUpperCase());
+        System.out.println("the index of the letter 'o' in programming: " + " " + str2.indexOf("o", 1));
+
+    }
+}
